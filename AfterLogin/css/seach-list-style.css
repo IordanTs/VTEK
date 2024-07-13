@@ -1,0 +1,49 @@
+.search-container {
+    padding: 40px;
+    margin-left: 50px;
+    max-width: 2000px;
+    text-align: center;
+}
+
+#video-list {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 20px;
+}
+
+#film-list {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 20px;
+}
+
+.videos-style {
+    list-style-type: none;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 'name image' 'house image';
+    text-align: left;
+}
+
+.videos-style>h2 {
+    grid-area: name;
+    margin-bottom: 0px;
+}
+
+.videos-style>p {
+    /*grid-area: house;*/
+    display: flex;
+    margin: 0;
+    margin-top: 18px;
+}
+
+.videos-style>img {
+    height: 150px;
+    width: 250px;
+    grid-area: image;
+}

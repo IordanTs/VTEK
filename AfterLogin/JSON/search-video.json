@@ -1,0 +1,85 @@
+[{
+        "name": "Mega Hits 2021 🌱 The Best Of Vocal Deep House Music Mix 2021 🌱 Summer Music Mix 2021 #9",
+        "chenal": "Ритъм",
+        "category": "Музика",
+        "image": "images/Mega-Hits-2021.jpg",
+        "link": "play-video-page.php"
+    },
+    {
+        "name": "Rag'n'Bone Man - Human (Official Video)",
+        "chenal": "Ритъм",
+        "category": "Музика",
+        "image": "images/human.jpg",
+        "link": "video2-Rag'n'Bone Man - Human.php"
+    },
+    {
+        "name": "OneRepublic - Counting Stars (Official Music Video)",
+        "chenal": "Ритъм",
+        "category": "Музика",
+        "image": "images/one-republic.jpg",
+        "link": "video1-Counting Stars.php"
+    },
+    {
+        "name": "Otilia - Bilionera (official video)",
+        "chenal": "Ритъм",
+        "category": "Музика",
+        "image": "images/bilionera.jpg",
+        "link": "video3-Otilia - Bilionera (official video).php"
+    },
+    {
+        "name": "Лили Иванова Детелини 🍀🍀🍀",
+        "chenal": "Ритъм",
+        "category": "Музика",
+        "image": "images/detelini.jpg",
+        "link": "video4-Лили Иванова Детелини.php"
+    },
+    {
+        "name": "YAKU - Капитан Петко Войвода / Kapitan Petko Voivoda - Официална Версия",
+        "chenal": "Ритъм",
+        "category": "Музика",
+        "image": "images/kapitanPetkoVoivoda.jpg",
+        "link": "video5-YAKU - Капитан Петко Войвода.php"
+    },
+    {
+        "name": "bTV Новините - ☀️Обедна емисия☀️ 17.03.2022",
+        "chenal": "Новини",
+        "category": "Новини",
+        "image": "images/novini1.jpg",
+        "link": "video6-bTV Новините.php"
+    },
+    {
+        "name": "bTV Новините - 🌆Централна емисия🌆 - 15.03.2022",
+        "chenal": "Новини",
+        "category": "Новини",
+        "image": "images/novini2.jpg",
+        "link": "video7-bTV Новините2.php"
+    },
+    {
+        "name": "Обедна емисия новини (8.4.2022)",
+        "chenal": "Новини",
+        "category": "Новини",
+        "image": "images/novini3.jpeg",
+        "link": "video8-Обедна емисия новини (8.4.2022).php"
+    },
+    {
+        "name": "Новините на NOVA (31.03.2022 - централна емисия)",
+        "chenal": "Новини",
+        "category": "Новини",
+        "image": "images/novini4.jpg",
+        "link": "video9-Новините на NOVA (31.03.2022 - централна емисия).php"
+    },
+    {
+        "name": "По света и у нас – 18.03.2022, 12:00 ч. по БНТ",
+        "chenal": "Новини",
+        "category": "Новини",
+        "image": "images/novini5.png",
+        "link": "video10-По света и у нас.php"
+    },
+    {
+        "name": "Новините на NOVA (22.03.2022 - централнаемисия",
+        "chenal": "Новини",
+        "category": "Новини",
+        "image": "images/novini6.jpg",
+        "link": "video11-Новините на NOVA (22.03.2022 - централна емисия).php"
+    }
+]

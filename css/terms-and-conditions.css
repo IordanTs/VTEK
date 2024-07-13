@@ -1,0 +1,30 @@
+.terms-and-conditions {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 180px;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+}
+
+.title {
+    padding-bottom: 10px;
+}
+
+.line {
+    justify-content: center;
+    width: 50%;
+    height: 5px;
+    border: none;
+    background-color: gray;
+    margin: auto;
+}
+
+.image-terms {
+    padding-top: 30px;
+    width: 1200px;
+    height: 500px;
+    align-content: center;
+    border-radius: 100px;
+    object-fit: cover;
+}

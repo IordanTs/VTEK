@@ -1,0 +1,69 @@
+[{
+        "name": "Дами канят",
+        "category": "Комедия, 4K",
+        "image": "films/DamiKanqt/DamiKanqt.jpg",
+        "link": "film11-DamiKanqt.php"
+    },
+    {
+        "name": "Баш Майстора на море",
+        "category": "Комедия, 4K",
+        "image": "films/BashMaistoraNaMore/BashMaistora.jpg",
+        "link": "film10-BashMajstoraNaMore.php"
+    },
+    {
+        "name": "Господин за един ден",
+        "category": "Комедия, 4K",
+        "image": "films/GospodinZaEdinDen/gospodinzaedinden.jpg",
+        "link": "film7-GospodinZaEdinDen.php"
+    },
+    {
+        "name": "Хитър Петър",
+        "category": "Комедия, 4K",
+        "image": "films/HiturPetur/hiturpetur.jpg",
+        "link": "film8-HiturPetur.php"
+    },
+    {
+        "name": "Любимец 13",
+        "category": "Комедия, 4K",
+        "image": "films/Lubimec13/lubimec13.jpg",
+        "link": "film9-Lubimec13.php"
+    },
+    {
+        "name": "Завръщане",
+        "category": "Драма, Комедия, 4K",
+        "image": "films/Zawrushtane/Zawrushtane.jpg",
+        "link": "film6-Zawrushtane.php"
+    },
+    {
+        "name": "Oblivion",
+        "category": "Екшън, Приключенски, Мистерия, 4K",
+        "image": "films/Oblivion.2013/Oblivion-banner.jpg",
+        "link": "play-film-page.php"
+    }, {
+        "name": "Hours",
+        "category": "Драма, Трилър, 4K",
+        "image": "films/Hours.2013/hours.jpg",
+        "link": "film1-Hours.php"
+    }, {
+        "name": "The 12th Man",
+        "category": "Драма, Исторически, Трилър, 4K",
+        "image": "films/The.12th.Man/the12men.jpg",
+        "link": "film2-Den12.php"
+    }, {
+        "name": "Bigger",
+        "category": "Драма, Биографичен, 4K",
+        "image": "films/Bigger(2018)/bigger.jpg",
+        "link": "film3-Bigger.php"
+    },
+    {
+        "name": "Riddick",
+        "category": "Екшън, Фантастика, Трилър, 4K",
+        "image": "films/Riddick/riddik.jpg",
+        "link": "film4-Riddick.php"
+    }, {
+        "name": "Rampage",
+        "category": "Екшън, Приключенски, Фантастика, 4K",
+        "image": "films/Rampage/Rampage.jpg",
+        "link": "film5-Rampage.php"
+    }
+]

@@ -1,0 +1,35 @@
+.contact-us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.line {
+    justify-content: center;
+    width: 50%;
+    height: 5px;
+    border: none;
+    background-color: gray;
+    margin: auto;
+}
+
+.contact-info {
+    padding-top: 20px;
+}
+
+.contact-info p {
+    padding-top: 5px;
+}
+
+.map {
+    padding-top: 30px;
+    width: 1200px;
+    align-content: center;
+    border-radius: 100px;
+}
+
+.title {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background: black;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: gray;
+}
+
+
+/*
+::-webkit-scrollbar {
+    display: none;
+}
+*/
+
+
+/*============= nav bar ==============*/
+
+.navbar {
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    transition: all 0.7s ease-in-out;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    font-family: 'Sen', sans-serif;
+}
+
+.site-name {
+    margin-left: 4px;
+    font-size: 30px;
+    color: white;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.menu-container {
+    flex: 6;
+    margin-left: 40px;
+    justify-content: flex-end;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item {
+    margin-right: 30px;
+    color: white;
+}
+
+.menu-list-item.bold {
+    font-weight: bold;
+    color: white;
+}
+
+.profile-container {
+    flex: 2;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-picture {
+    font-size: 20px;
+}
+
+.profil-dropdown-menu {
+    margin: 0 20px;
+}
+
+.toggle {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.toggle-icon {
+    color: goldenrod
+}
+
+.toggle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/*============= side bar ==============*/
+
+.sidebar {
+    z-index: 2;
+    height: 100%;
+    width: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.7s ease-in-out;
+    font-family: 'Sen', sans-serif;
+}
+
+.sidebar-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+.sidebar-icon {
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.sidebar-text {
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-top: 4px;
+    align-items: center;
+    color: white;
+    max-width: 40px;
+    text-align: center;
+}
+
+
+/*============= container ==============*/
+
+.container {
+    background-color: #151515;
+    min-height: calc(100vh - 50px);
+    color: white;
+    margin-top: 50px;
+    font-family: 'Sen', sans-serif;
+    transition: all 0.7s ease-in-out;
+}
+
+
+/*============= indeh style ==============*/
+
+.main-page-table {
+    padding-left: 80px;
+    padding-top: 50px;
+    align-items: center;
+    position: absolute;
+}
+
+.video-square {
+    padding-right: 730px;
+}
+
+.video-picture {
+    width: 690px;
+    height: 550px;
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgb(40, 40, 40);
+    position: absolute;
+}
+
+.film-picture {
+    width: 690px;
+    height: 550px;
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgb(40, 40, 40);
+    position: absolute;
+}
+
+.overlay {
+    width: 690px;
+    height: 550px;
+    position: absolute;
+    transition: opacity 0.4 ease-in-out;
+    background: black;
+    opacity: 0.0;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
+
+.video-square:hover .overlay {
+    opacity: 0.6;
+}
+
+.film-square:hover .overlay {
+    opacity: 0.6;
+}
+
+.login-button {
+    background-color: grey;
+    color: white;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+
+/*============= toggel balck to white tame ==============*/
+
+.container.active {
+    background-color: rgb(212, 209, 209);
+    transition: all 0.7s ease-in-out;
+    color: black;
+}
+
+.movie-list-title.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.navbar.active {
+    background-color: white;
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.site-name.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.menu-list-item.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.sidebar.active {
+    background-color: white;
+    transition: all 0.7s ease-in-out;
+}
+
+.sidebar-text.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.sidebar-icon.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.toggle.active {
+    background-color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.toggle-ball.active {
+    background-color: white;
+    transform: translateX(-20px);
+    transition: all 0.7s ease-in-out;
+}
+
+.info.active {
+    background-color: white;
+    transition: all 0.7s ease-in-out;
+}
+
+.col.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.email-text.active {
+    color: black;
+}
+
+.social-icons a.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.copyright-line.active {
+    border-bottom: 1px solid black;
+    transition: all 0.7s ease-in-out;
+}
+
+.copyright.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.link-element.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.col .fa-solid.active {
+    color: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.underline.active {
+    background: black;
+    transition: all 0.7s ease-in-out;
+}
+
+.email-id.active {
+    border-bottom: 1px solid black;
+    transition: all 0.7s ease-in-out;
+}
+
+form.active {
+    border-bottom: 1px solid black;
+    transition: all 0.7s ease-in-out;
+}
+
+
+/*============= info ==============*/
+
+.info {
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    transition: all 0.7s ease-in-out;
+    font-family: 'Sen', sans-serif;
+}
+
+.info-logo {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 0px;
+}
+
+.col:nth-child(2),
+.col:nth-child(3) {
+    flex-basis: 15%;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid white;
+    margin: 20px 0;
+}
+
+.link-element {
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.link-paragraph {
+    margin-bottom: 12px;
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+
+form .fa {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input {
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: 0;
+    outline: none;
+}
+
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .fa-solid {
+    font-size: 16px;
+    color: white;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.copyright-line {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin: 20px auto;
+    margin-right: 50px;
+}
+
+.copyright {
+    margin-right: 50px;
+    text-align: center;
+}
+
+.underline {
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span {
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+.email-image {
+    padding-right: 10px;
+}
+
+
+/*============= info responding ==============*/
+
+@keyframes moving {
+    0% {
+        left: -20px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .info {
+        bottom: unset;
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    .col:nth-child(2),
+    .col:nth-child(3) {
+        flex-basis: 100%;
+    }
+}
+
+
+/*============= site responding ==============*/
+
+@media only screen and (max-width: 940px) {
+    .menu-container {
+        display: none;
+    }
+}

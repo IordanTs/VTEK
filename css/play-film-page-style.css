@@ -1,0 +1,284 @@
+.play-container {
+    width: auto;
+    padding-top: 30px;
+    padding-left: 85px;
+    position: relative;
+    z-index: 1;
+}
+
+.play-img {
+    width: 1420px;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.play-text {
+    margin-top: 163px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    bottom: 0;
+    left: 0;
+    width: 92.6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 42px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515);
+    flex-basis: 69%;
+}
+
+.rating {
+    color: goldenrod;
+    font-size: 25px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.tags {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    align-items: center;
+    column-gap: 8px;
+    padding-top: 10px;
+}
+
+.tags span {
+    background: rgb(104, 104, 104);
+    border-radius: 5%;
+    padding: 0 4px;
+}
+
+.watch-btn {
+    font-size: 70px;
+    margin-top: 20px;
+    align-items: center;
+    color: rgb(255, 44, 44);
+    display: flex;
+    text-decoration: none;
+}
+
+.trailer-text {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.play-movie-button {
+    padding-left: 800px;
+    font-size: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.play-movie-button:hover {
+    color: lightgreen;
+    transition: all 1s ease-in-out;
+}
+
+.abount-movie-container h1 {
+    padding-top: 40px;
+}
+
+.abount-movie-container h3 {
+    padding-top: 20px;
+}
+
+.abount-movie-container p {
+    padding-top: 10px;
+    max-width: 700px;
+}
+
+.cast-heading {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.cast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 150px));
+    gap: 1rem;
+}
+
+.cast-img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.download {
+    max-width: 800px;
+    width: 1005;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.download-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 1.6rem 0;
+    color: white;
+}
+
+.download-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.download-links a {
+    text-align: center;
+    background: gray;
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.download-links a:hover {
+    background: red;
+}
+
+
+/*
+
+#play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 15, 15, 0.7);
+    z-index: 108;
+    display: none;
+}
+
+.movie {
+    padding-left: 60px;
+    padding-top: 55px;
+    width: 1300px;
+    height: 600px;
+}
+
+.close-movie {
+    position: fixed;
+    right: 40px;
+    top: 60px;
+    font-size: 40px;
+    color: white;
+    transition: all ease 0.3s;
+}
+
+.close-movie:hover {
+    color: red;
+    transition: all ease 0.3s;
+}
+
+.play-movie video,
+play-movie iframe {
+    object-position: center;
+    object-fit: cover;
+    z-index: 108;
+}
+
+.active-popup {
+    display: flex !important;
+}
+*/
+
+.video-container {
+    background-color: rgba(15, 15, 15, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    top: 30px;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+    z-index: 400;
+}
+
+.trailer-container {
+    background-color: rgba(15, 15, 15, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    top: 30px;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+    z-index: 400;
+}
+
+.video-box {
+    width: 100%;
+    position: relative;
+}
+
+.trailer-box {
+    width: 100%;
+    position: relative;
+}
+
+.movie {
+    margin-left: 85px;
+    margin-top: 25px;
+    width: 1420px;
+    height: 600px;
+}
+
+.trailer {
+    margin-left: 85px;
+    margin-top: 25px;
+    width: 1420px;
+    height: 600px;
+}
+
+.close-video {
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.close-trailer {
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+.video-container.show-video {
+    display: flex;
+}
+
+.play-trailer-button {
+    cursor: pointer;
+}
+
+.play-trailer-button:hover {
+    color: lightgreen;
+    transition: all 1s ease-in-out;
+}
+
+.trailer-container.show-video {
+    display: flex;
+}
